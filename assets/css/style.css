@@ -6,24 +6,22 @@
     background-color: #0CCAF2;
     text-align: center;
     color: white;
+    padding: 20px;
 
 }
 
 .form {
     background-color: black;
-    text-align: center;
+    text-align: start;
     padding: 20px;
-
-
-}
-
-.mb-3 {
     color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-
 
 .card-text{
     background-color: #0CCAF2;
+    color: white;
 }
 
 .fondo {
@@ -52,5 +50,110 @@
 .example{
     text-align: start;
     position: initial;
+}
+
+* {
+    margin: 0%;
+    
+}
+
+.tarjetas {
+    background-color: black;
+    padding: 20px;
+}
+
+.intermedio {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 0%;
+}
+
+.card-body p {
+    color: white;
+}
+
+.tarjeta {
+    background-color: #0CCAF2;
+    border: none;
+}
+
+.card.text-bg-info-emphasis {
+    background-color: #0CCAF2;
+      border: none;
+}
+
+.card.text-white.bg-info-emphasis {
+    background-color: black;
+    border: none;
+}
+
+.card-body.text-center {
+    background-color: #0CCAF2;
+    color: white;
+    padding: 20px;
+}
+
+.card-body.text-center {
+    background-color: #0CCAF2;
+    color: white;
+    padding: 20px;
+}
+
+.card_body_icon {
+    color: white;
+    padding: 20px;
+}
+
+.texto {
+    background-color: white;
+}
+
+
+.card.text-white.bg-dark {
+    background-color: black;
+}
+
+.card.text-white.bg-dark .card-body.text-center {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.card.text-white.bg-dark .card-body.text-center i {
+    color: #0CCAF2;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.texto {
+    background-color: black; /* Fondo negro para el área de texto */
+    color: white; /* Texto blanco en el área de texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+.card-body.text-center {
+    background-color: #0CCAF2; /* Fondo azul para el área del ícono */
+    color: white; /* Texto blanco en el área del ícono */
+    padding: 20px; /* Espaciado interno */
+}
+
+.card-body.text-center i {
+    color: white; /* Color blanco para el ícono */
 }
 
