@@ -1,6 +1,5 @@
-.navbar {
-    background-color: #0CCAF2;
-    
+.banner{
+    text-align: start;
 }
 
 .footer {
@@ -54,3 +53,4 @@
     text-align: start;
     position: initial;
 }
+
