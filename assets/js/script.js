@@ -31,3 +31,23 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+
+          $(document).ready(function() {
+              $("#quienessomos").dblclick(function() {
+                  $(this).hide('slow');
+              });
+  
+              $("#quienessomos").click(function() {
+                  $(this).css({
+                      "color": "red",
+                      "font-size": "2em"
+                  });
+              });
+  
+              $("#quienessomos").hover(function() {
+                  $(this).html("<a href='#'>Me convertí en un enlace</a>");
+              }, function() {
+                  $(this).html("¿QUIENES SOMOS?");
+              });
+          });
+    
