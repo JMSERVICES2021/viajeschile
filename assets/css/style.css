@@ -142,18 +142,26 @@
 }
 
 .texto {
-    background-color: black; /* Fondo negro para el área de texto */
-    color: white; /* Texto blanco en el área de texto */
-    padding: 20px; /* Espaciado interno */
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 .card-body.text-center {
-    background-color: #0CCAF2; /* Fondo azul para el área del ícono */
-    color: white; /* Texto blanco en el área del ícono */
-    padding: 20px; /* Espaciado interno */
+    background-color: #0CCAF2;
+    color: white;
+    padding: 20px;
 }
 
 .card-body.text-center i {
-    color: white; /* Color blanco para el ícono */
+    color: white;
 }
 
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+}
+    
