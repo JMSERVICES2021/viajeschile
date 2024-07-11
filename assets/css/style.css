@@ -34,12 +34,16 @@
 
 .dream{
     background-color: #0CCAF2;
+    display: flex;
+    align-items: center;
     
 }
 
 .fot {
     color: white;
     text-align: start;
+    padding: 10px;
+
 }
 
 .text-center{
