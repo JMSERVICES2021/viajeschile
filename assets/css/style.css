@@ -2,6 +2,10 @@
     text-align: start;
 }
 
+.nav-item {
+    text-align: end;
+}
+
 .footer {
     background-color: #0CCAF2;
     text-align: center;
